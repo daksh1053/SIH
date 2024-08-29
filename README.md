@@ -20,9 +20,9 @@ The Doping Detection AI Framework is an open-source project aimed at developing 
 
 ## AI Framework Overview
 
-Our framework utilizes a hybrid deep learning approach, combining:
+Our framework utilizes a hybrid deep learning and machine learning approach, combining:
 
-- Recurrent Neural Networks (RNNs) for processing temporal biomarker data
+- A RandomForestClassifier Algorithm imeplementing binary classification for the model to output how likely it is that the athlete has undergone doping.
 - Feedforward Neural Networks for handling static athlete features
 - Advanced regularization techniques to prevent overfitting
 - Custom loss functions to address class imbalance
